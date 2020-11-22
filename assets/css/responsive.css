@@ -1,0 +1,666 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area .left-menu li a { 
+        margin-right: 25px; 
+    }
+    .MENU {
+        display: inline-block;
+        margin-right: 0px;
+    }
+    .right-menu ul li a img {
+        margin-left: 9px; 
+    }
+    .logo-area {
+        position: absolute;
+        top: -50px;
+        left: -35px;
+    }
+    .hero-wrepper h1 {
+        font-size: 38px;
+        color: #fff;
+        line-height: 50px;
+        margin-bottom: 21px;
+    }
+    .hero-wrepper {
+        padding-top: 95px;
+    }
+    .info-area .row {
+        width: 90%;
+        margin: auto;
+        margin-top: -40px;
+        position: relative;
+        z-index: 2;
+        border-top: 5px solid #BE7600;
+        box-shadow: 0px 3px 10px -3px #dadada99;
+        background: #fff;
+        padding: 30px 10px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .info-area .row .info-wrep h4 {
+        font-size: 11px;
+        display: block;
+    }
+    .product-box .productBox-content {
+        padding: 10px;
+    }
+    .product-box .productBox-content h5 span { 
+        font-size: 13px;
+        top: 1px;
+    }
+    .buying-area .buying-img img { 
+        height: 379px; 
+        min-width: 545px; 
+        top: 79px; 
+    }
+    .customers-blk .customers-wrepper {
+        position: relative;
+        padding: 19px;
+        visibility: hidden;
+        opacity: 0;
+        padding-top: 100px;
+        transition: .3s;
+        padding-bottom: 30px;
+    }
+    .event-slider-iteam .col-lg-6 {
+        padding: 0;
+    }
+    .event-slider-iteam { 
+        padding-right: 0;
+    }
+    .event-iteam-content p {
+        font-size: 12px;
+        line-height: 16px;
+        color: #000;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .event-iteam-content h4 {
+        font-size: 17px;
+        padding-top: 20px;
+        margin-left: 10px;
+        width: 85%;
+    }
+    .row.news-latter h4 {
+        margin: 0;
+        font-size: 23px;
+        font-family: ProximaNovaRagular;
+        margin-top: 11px;
+    }
+    footer ul li a {
+        font-size: 14px; 
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .siteBAR{
+        display: block;
+      }
+      .MENU { 
+        display: none;
+    }
+    .col-lg-5.col-md-5.menu-col {
+        display: none;
+    }
+    .siteBAR {
+        background: #fdfdfd;
+        width: 280px;
+        height: 100vh;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        overflow: scroll;
+        margin-left: -280px;
+        transition: .3s;
+        box-shadow: 0px 0px 3px 0px #016fb978;
+    }
+    .siteBAR.SiteBarMenu {
+        margin-left: 0;
+    }
+    .logo-area img {
+        width: 60px;
+    }
+    .logo-area {
+        position: absolute;
+        top: -31px;
+        left: 0px;
+    }
+    .logo-area img.text-logo {
+        display: block;
+    }
+    .header-area { 
+        margin-bottom: 40px;
+    }
+    .info-area .row { 
+        padding: 30px 20px; 
+    }
+    .buying-area .buying-img img {
+        max-width: 650px !important;
+        position: relative;
+        height: 379px;
+        object-fit: cover;
+        min-width: 100%;
+        z-index: 2;
+        object-position: top;
+        top: 0;
+        border: 10px solid #BE7600;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .row.news-latter h4 {
+        margin: 0;
+        font-size: 24px;
+        font-family: ProximaNovaRagular;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .footer-link-left.text-center {
+        text-align: left !important;
+    }
+
+    .nINlg{
+        display: block;
+      }
+      .col-lg-2.main-Flogo {
+        display: none;
+    }
+    .nINlg .footer-logo-area.text-center {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 70px;
+        margin: auto;
+    }
+    .footer-social.text-right {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    .footer-copy-right ul li a {
+        margin-left: 0;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .right-menu ul li.humbargar-manuBAR{
+        display: block !important;
+      }
+      li.humbargar-manuBAR {
+        width: 30px;
+        height: 25px;
+        float: right;
+        margin-left: 30px;
+    }
+    
+    li.humbargar-manuBAR span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #016fb9;
+        top: 10px;
+        position: relative;
+        transition: .3s;
+    }
+    
+    li.humbargar-manuBAR span:after {content: "";position: absolute;width: 100%;height: 3px;background: #016fb9;top: -8px;left: 0;transition: .3s;}
+    
+    li.humbargar-manuBAR span:before {content: "";position: absolute;width: 100%;height: 3px;background: #016fb9;top: 8px;left: 0;transition: .3s;}
+    .right-menu ul li.humbargar-manuBAR span.Humbargar::before {
+        transform: rotate(48deg);
+        top: 0px;
+    }
+    .right-menu ul li.humbargar-manuBAR span.Humbargar::after {
+        transform: rotate(-48deg);
+        top: 0px;
+    }
+    
+    .right-menu ul li.humbargar-manuBAR span.Humbargar {
+        background-color: #fff; 
+        
+    }
+    .siteBAR.SiteBarMenu {
+        margin-left: 0;
+    }
+    .sidbarLogo .logo-area {
+        position: relative;
+        margin: auto;
+        top: 20px;
+        left: 30px; 
+        width: 140px;
+        margin-bottom: 70px;
+    }
+    
+    .sidbarLogo .logo-area img {
+        display: block;
+        margin-top: 5px;
+    } 
+    .sidbarLogo .logo-area img.text-logos {
+        width: 100px;
+        position: relative;
+        left: -19px;
+    }
+    
+    .siteBAR nav ul li {
+        display: block;
+    }
+    
+    .siteBAR nav ul li a {
+        display: block;
+        color: #000;
+        text-transform: uppercase;
+        line-height: 32px;
+        padding-left: 40px;
+        transition: .3s;
+    }
+    
+    .siteBAR nav ul li a:hover {
+        font-weight: 700;
+        color: #016fb9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .siteBAR{
+        display: block;
+      }
+      .MENU { 
+        display: none;
+    }
+    .col-lg-5.col-md-5.menu-col {
+        display: none;
+    }
+    .siteBAR {
+        background: #fdfdfd;
+        width: 280px;
+        height: 100vh;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        overflow: scroll;
+        margin-left: -280px;
+        transition: .3s;
+        box-shadow: 0px 0px 3px 0px #016fb978;
+    }
+    .siteBAR.SiteBarMenu {
+        margin-left: 0;
+    }
+    .logo-area img {
+        width: 60px;
+    }
+    .logo-area {
+        position: absolute;
+        top: -31px;
+        left: 0px;
+    }
+    .logo-area img.text-logo {
+        display: block;
+    }
+    .header-area { 
+        margin-bottom: 40px;
+    }
+    .info-area .row { 
+        padding: 30px 20px; 
+        padding-top: 10px;
+    }
+    .buying-area .buying-img img {
+        max-width: 100% !important;
+        position: relative;
+        height: 379px;
+        object-fit: cover;
+        min-width: 100%;
+        z-index: 2;
+        object-position: top;
+        top: 0;
+        border: 10px solid #BE7600;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .buying-area .buying-wrepper { 
+        padding: 40px; 
+        border-radius: 5px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .row.news-latter h4 {
+        margin: 0;
+        font-size: 24px;
+        font-family: ProximaNovaRagular;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .footer-link-left.text-center {
+        text-align: left !important;
+    }
+
+    .nINlg{
+        display: block;
+      }
+      .col-lg-2.main-Flogo {
+        display: none;
+    }
+    .nINlg .footer-logo-area.text-center {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 70px;
+        margin: auto;
+    }
+    .footer-social.text-right {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    .footer-copy-right ul li a {
+        margin-left: 0;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .right-menu ul li.humbargar-manuBAR{
+        display: block !important;
+      }
+      li.humbargar-manuBAR {
+        width: 30px;
+        height: 25px;
+        float: right;
+        margin-left: 30px;
+    }
+    
+    li.humbargar-manuBAR span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #016fb9;
+        top: 10px;
+        position: relative;
+        transition: .3s;
+    }
+    
+    li.humbargar-manuBAR span:after {content: "";position: absolute;width: 100%;height: 3px;background: #016fb9;top: -8px;left: 0;transition: .3s;}
+    
+    li.humbargar-manuBAR span:before {content: "";position: absolute;width: 100%;height: 3px;background: #016fb9;top: 8px;left: 0;transition: .3s;}
+    .right-menu ul li.humbargar-manuBAR span.Humbargar::before {
+        transform: rotate(48deg);
+        top: 0px;
+    }
+    .right-menu ul li.humbargar-manuBAR span.Humbargar::after {
+        transform: rotate(-48deg);
+        top: 0px;
+    }
+    
+    .right-menu ul li.humbargar-manuBAR span.Humbargar {
+        background-color: #fff; 
+        
+    }
+    .siteBAR.SiteBarMenu {
+        margin-left: 0;
+    }
+    .sidbarLogo .logo-area {
+        position: relative;
+        margin: auto;
+        top: 20px;
+        left: 30px; 
+        width: 140px;
+        margin-bottom: 70px;
+    }
+    
+    .sidbarLogo .logo-area img {
+        display: block;
+        margin-top: 5px;
+    } 
+    .sidbarLogo .logo-area img.text-logos {
+        width: 100px;
+        position: relative;
+        left: -19px;
+    }
+    
+    .siteBAR nav ul li {
+        display: block;
+    }
+    
+    .siteBAR nav ul li a {
+        display: block;
+        color: #000;
+        text-transform: uppercase;
+        line-height: 32px;
+        padding-left: 40px;
+        transition: .3s;
+    }
+    
+    .siteBAR nav ul li a:hover {
+        font-weight: 700;
+        color: #016fb9;
+    }
+    a.THEME-BTN {
+        background: #016FB9;
+        padding: 5px 10px;
+        border-radius: 30px;
+        font-size: 13px;
+        color: #fff;
+        transition: .3s;
+        font-family: ProximaNovaRagular;
+        text-align: center;
+        border: 2px solid #016FB9;
+    }
+    .section-title h1 {
+        font-size: 19px;
+        margin-bottom: 30px;
+        line-height: 43px;
+        word-spacing: 2px;
+    }
+    .event-slider-iteam { 
+        padding-right: 0; 
+    }
+    .event-iteam-content {
+        padding: 10px;
+    }
+    .news-letter-form form input {
+        width: 100%;
+        padding: 5px 35px;
+        border-radius: 30px;
+        border: 1px solid #CBCBCB;
+        padding-top: 8px;
+        outline: none;
+    }
+    .news-letter-form form img {
+        position: absolute;
+        top: 13px;
+        left: 15px;
+    }
+    .news-letter-form form button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100px;
+        height: 100%;
+        background: #016FB9;
+        border: 1px solid #016fb9;
+        color: #fff;
+        font-size: 14px; 
+    }
+    .payment-logo ul li a {
+        margin: 5px;
+    }
+    .payment-logo ul li a img {
+        width: 44px;
+    }
+    .payment-logo {
+        margin-bottom: 15px;
+    }
+    .footer-logo-area a img {
+        position: absolute;
+        top: -50px;
+        left: 0;
+        width: 80px;
+    }
+    .logo-area {
+        position: absolute;
+        top: -33px;
+        left: 15px;
+    }
+    .hero-wrepper h1 {
+        font-size: 28px;
+        color: #fff;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .hero-area-slider { 
+        height: 355px; 
+    }
+    .info-area .row {
+        padding: 30px 0px;
+        padding-top: 20px;
+    }
+    .info-area .row .info-wrep h4 img {
+        margin-right: 9px;
+        float: left;
+        width: 23px;
+    }
+    .info-area .row .info-wrep h4 {
+        font-size: 13px;
+        display: block;
+    }
+    .info-wrep {
+        padding-top: 20px;
+    }
+    .buying-area .buying-wrepper h2 {
+        font-size: 23px; 
+    }
+    .buying-area .buying-wrepper {
+        padding: 40px;
+        border-radius: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .row.news-latter {
+        box-shadow: 0px 0px 15px -11px #000;
+        border-top: 5px solid #be7600;
+        border-radius: 5px;
+        padding: 16px 10px;
+        background: #fff;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        top: -35px;
+    }
+    .row.news-latter h4 {
+        margin: 0;
+        font-size: 16px; 
+        padding-bottom: 10px;
+    }
+    .event-slider-iteam { 
+        margin-left: -15px; 
+    }
+    .siteBAR { 
+        width: 270px; 
+    }
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.hero-wrepper h1 {
+    font-size: 32px;
+    color: #fff;
+    line-height: 42px;
+    margin-bottom: 25px;
+}
+.hero-area-slider { 
+    height: 365px; 
+}
+.info-wrep {
+    margin-top: 30px;
+}
+.buying-area .buying-wrepper h2 {
+    font-size: 32px; 
+}
+.row.news-latter h4 { 
+    font-size: 19px; 
+}
+.payment-logo ul li a {
+    margin: 5px;
+}
+.payment-logo ul li a img {
+    width: 50px;
+}
+.payment-logo {
+    margin-bottom: 15px;
+}
+.footer-logo-area a img {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 80px;
+}
+
+.logo-area { 
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
